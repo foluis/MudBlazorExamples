@@ -1,0 +1,41 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<MudText Typo="Typo.h1">Hello, world!</MudText>
+
+<MudButton Variant="Variant.Filled" Color="Color.Primary"
+           OnClick="ButtonOnClick" Disabled="@isDisable">
+    Click here
+</MudButton>
+
+<MudText Typo="Typo.h6" Class="d-inline-flex pr-4">@buttonText</MudText>
+
+@if (isDisable)
+{
+    <MudIconButton Icon="@Icons.Material.Filled.Undo"
+                   Class="d-inline-flex"
+                   Color="Color.Inherit"
+                   Edge="Edge.Start"
+                   OnClick="@((e) => EnableButton())" />
+}
+
+
+@code {
+    public string buttonText = "";
+    public bool isDisable;
+
+
+    void ButtonOnClick()
+    {
+        buttonText = "Button Clicked";
+        isDisable = true;
+    }
+
+    void EnableButton()
+    {
+        isDisable = false;
+        buttonText = "";
+    }
+}

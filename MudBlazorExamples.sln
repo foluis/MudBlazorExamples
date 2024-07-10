@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorExamples.MainLayout", "MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout.csproj", "{39D239BD-D6A0-4B0D-A914-212704CF95B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorExamples.MainLayout", "MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout.csproj", "{39D239BD-D6A0-4B0D-A914-212704CF95B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorExamples.MainLayout.Client", "MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout.Client\MudBlazorExamples.MainLayout.Client.csproj", "{DD52A265-F0FE-4B97-8BED-0149FAD28257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorExamples.MainLayout.Client", "MudBlazorExamples.MainLayout\MudBlazorExamples.MainLayout.Client\MudBlazorExamples.MainLayout.Client.csproj", "{DD52A265-F0FE-4B97-8BED-0149FAD28257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainLayoutExample", "MainLayoutExample\MainLayoutExample\MainLayoutExample.csproj", "{202B3D84-74D9-4238-A676-06B5D4D45AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainLayoutExample.Client", "MainLayoutExample\MainLayoutExample.Client\MainLayoutExample.Client.csproj", "{02EC5160-F991-4572-ACB3-7818A6793ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DD52A265-F0FE-4B97-8BED-0149FAD28257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD52A265-F0FE-4B97-8BED-0149FAD28257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD52A265-F0FE-4B97-8BED-0149FAD28257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202B3D84-74D9-4238-A676-06B5D4D45AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202B3D84-74D9-4238-A676-06B5D4D45AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202B3D84-74D9-4238-A676-06B5D4D45AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202B3D84-74D9-4238-A676-06B5D4D45AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EC5160-F991-4572-ACB3-7818A6793ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EC5160-F991-4572-ACB3-7818A6793ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EC5160-F991-4572-ACB3-7818A6793ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EC5160-F991-4572-ACB3-7818A6793ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
